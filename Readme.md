@@ -1,9 +1,9 @@
 #  Sistema de Gestión de Tareas con API REST y Autenticación JWT
 
 Trabajo práctico – PFO 2  
-Tecnicatura en Desarrollo de Software
+Tecnicatura en Desarrollo de Software - IFTS N° 29
 
-Este proyecto implementa una API REST con Flask para gestionar usuarios y simular un sistema de tareas. La autenticación se realiza mediante **JSON Web Tokens (JWT)** para proteger el acceso a ciertas rutas.
+Este proyecto implementa una API REST con Flask para gestionar usuarios y simular un sistema de tareas. Las contraseñas de los usuarios se almacenan de forma segura utilizando bcrypt (hashing), y la autenticación se realiza mediante JSON Web Tokens (JWT) para proteger el acceso a ciertas rutas.
 
 ---
 
@@ -71,3 +71,6 @@ Cliente de Consola – Opciones disponibles
 0. Salir
 
 El cliente guarda el token JWT al iniciar sesión y lo utiliza automáticamente al acceder a tareas.
+
+> Nota: Este proyecto es una API REST construida con Flask (Python). GitHub Pages no permite alojar y ejecutar código de servidor, por lo que no es posible desplegar esta API allí.
+
