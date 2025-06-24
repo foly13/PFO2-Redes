@@ -72,5 +72,9 @@ Cliente de Consola – Opciones disponibles
 
 El cliente guarda el token JWT al iniciar sesión y lo utiliza automáticamente al acceder a tareas.
 
+## Pruebas en Postman
+A continuación se muestra una captura de una prueba exitosa realizada en Postman, donde se accede al endpoint protegido /tareas utilizando un token JWT válido.
+![Prueba con JWT en Postman](postman.png)
+
 > Nota: Este proyecto es una API REST construida con Flask (Python). GitHub Pages no permite alojar y ejecutar código de servidor, por lo que no es posible desplegar esta API allí.
 
